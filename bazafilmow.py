@@ -86,7 +86,10 @@ print("Top tytuły:")
 top_titles()
 print('\n')
 def generate_views():
-    pass
+    prod = random.choice(library)
+    prod.views + random.randint(1, 100)
+    print(prod)
+
         
 generate_views()
 search()
